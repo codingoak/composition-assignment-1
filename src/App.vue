@@ -13,23 +13,43 @@
 </template>
 
 <!-- <script setup>
-// SEPARATE REFS:
+// TASK 1 / OUTPUT WITH THE COMPOSITION API:
+// export default {
+//  const courseGoal = ref("Master Vue.js");
+//  return { goal: courseGoal };
+// }
+// *****************************************************************
+
+// TASK 2 / TOGGLE BUTTON VISIBILITY:
+// import { ref } from "vue";
+// 
+// export default {
+//  const courseGoal = ref("Master Vue.js");
+//  const isGoalVisible = ref(false);
+// 
+//  function toggleGoal() {
+//    goalIsVisible.value = !goalIsVisible.value
+//  }
+// }
+// *****************************************************************
+
+// TASK 3.1 / SEPARATE REFS:
 // import { ref } from "vue";
 
 // const courseGoal = ref("Master Vue.js");
-// const isGoalVisible = ref(true);
+// const isGoalVisible = ref(false);
 
 // function toggleGoal() {
 //   isGoalVisible.value = !isGoalVisible.value;
 // }
 // *****************************************************************
 
-// REF OBJECT:
+// TASK 3.2 / REF OBJECT:
 // import { ref } from "vue";
 
 // const courseData = ref({
 //   goal: "Master Vue.js",
-//   isVisible: true,
+//   isVisible: false,
 // });
 
 // function toggleGoal() {
@@ -37,12 +57,12 @@
 // }
 // *****************************************************************
 
-// REACTIVE OBJECT:
+// TASK 3.3 / REACTIVE OBJECT:
 // import { reactive } from "vue";
 
 // const courseData = reactive({
 //   goal: "Master Vue.js",
-//   isVisible: true,
+//   isVisible: false,
 // });
 
 // function toggleGoal() {
@@ -51,12 +71,13 @@
 </script> -->
 
 <script>
+// TASK 4 / OPTIONS API:
 export default {
   data() {
     return {
       courseData: {
         goal: "Master Vue.js",
-        isVisible: true,
+        isVisible: false,
       },
     };
   },
