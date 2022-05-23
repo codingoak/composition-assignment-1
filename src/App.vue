@@ -23,13 +23,11 @@
 // TASK 2 / TOGGLE BUTTON VISIBILITY:
 // import { ref } from "vue";
 // 
-// export default {
-//  const courseGoal = ref("Master Vue.js");
-//  const isGoalVisible = ref(false);
+// const courseGoal = ref("Master Vue.js");
+// const isGoalVisible = ref(false);
 // 
-//  function toggleGoal() {
-//    goalIsVisible.value = !goalIsVisible.value
-//  }
+// function toggleGoal() {
+//   goalIsVisible.value = !goalIsVisible.value
 // }
 // *****************************************************************
 
